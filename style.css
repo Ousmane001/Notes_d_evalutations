@@ -6,7 +6,7 @@
 
 img { max-width: 100%; 
     height: 200; 
-   
+    margin-bottom: 100px;
 }
 
 
@@ -14,3 +14,92 @@ body {
     background-color: #1abacf; /* couleur de fond grise claire */
 }
 
+button {
+    background-color: #1abacf;
+    color: #eeeeee;
+    font-size: 24px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;border-radius: 10px;
+}
+button:hover {
+    background-color: #f7c2f9;
+}
+
+
+
+/**************************
+Inscription page
+**************************/
+.container {
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="numero"],
+.form-group input[type="email"],
+.form-group input[type="Code_matiere"],
+.form-group input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #1abacf;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center; /* Centrer horizontalement */
+    font-weight: bold; /* Texte en gras */
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.5); /* Ombre légère */
+    color: black;
+    font-family: "SpaceGrotesk-Light";
+    line-height: 1.2;
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+h2{
+    text-align: center; /* Centrer horizontalement */
+    font-weight: bold; /* Texte en gras */
+    text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.5); /* Ombre légère */
+    color: black;
+    font-family: "SpaceGrotesk-Light";
+    line-height: 1.2;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.centrer{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.no-underline{
+    margin-top: 20px;
+    margin-bottom: 50px;;
+    text-decoration: none;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
