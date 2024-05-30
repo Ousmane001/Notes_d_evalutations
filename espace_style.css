@@ -1,0 +1,108 @@
+/* Sélectionnez la table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style des cellules de la table */
+table td {
+    padding: 10px;
+    border: 2px solid #63003C;
+}
+
+table th {
+    padding: 10px;
+    border: 2px solid #020202;
+}
+/* Style des liens */
+a {
+    color: #63003C;
+    text-decoration: none;
+}
+
+/* Style des titres */
+h1 {
+    color: white;
+    font-size: 45px;
+}
+h2{
+    margin-top: 100px;
+    color: #c9b1bf;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Style du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'en-tête */
+header {
+    background-color: #63003C;
+    color: #0c0a0a;
+    padding: 20px;
+}
+
+/* Style du contenu principal */
+main {
+    padding: 20px;
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #63003C;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/* Style de l'en-tête de la table */
+table th {
+    /* Remove the padding property */
+    border: 5px solid #63003C;
+    background-color: #63003C;
+    color: #ffffff;
+}
+   
+
+
+/* Style des lignes impaires de la table */
+table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Style des lignes paires de la table */
+table tr:nth-child(even) {
+    background-color: #fff;
+}
+
+caption {
+    font-size: 30px;
+    color: #080808;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.consigne{
+    font-size: 18px;
+    color: #080808;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.absence{
+    color: red;
+    font-weight: bold;
+    
+}
+
+.ne{
+    color: green;
+    font-weight: bold;
+}
